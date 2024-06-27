@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function log(...texts){
+            const logDiv = document.getElementById('log');
+            const newLogEntry = document.createElement('div');
+            // 여러 텍스트 인자를 하나의 문자열로 합칩니다.
+            newLogEntry.textContent = texts.join(' ');
+            logDiv.appendChild(newLogEntry);
+        }
+    </script>
+</head>
+<body>
+    <div id="log"></div>
+        <script>
+            // let mum10 = 10;
+            // let num20 = 20;
+            // let num03 = 3 ;
+
+        
+            // log(num10-num20);
+            // log(num10*num20);
+            // log(num10/num03);
+            // log(num10%num03);
+            // 대입 연산자ㅣ
+            // let sum01 = 10;
+            // log(sum01);
+            // sum01 += 5;
+            // log(sum01);
+            // sum01 *5;
+            // log(sum01);
+            // sum01/=5;
+            // log(sum01);
+            // sum01%=5;
+            // log(sum01);
+        // 증감 연산자 ++ 
+        // let a=10;
+        // let b, y;
+        // let x=10;
+
+        // b=a++;
+        // log(a,b);
+
+        // y=++x;
+        // log(x,y);
+
+        // log(3+4);
+        // log("고양"+"이")
+        // log('고양이'+2+'마리');
+        // log(2+3+'마리');
+        // log('고양이'+2+3+'마리');
+
+    //   결합연산자 
+    //  
+    
+    //비교연산자
+
+    // let a=20;
+    // let b=10;
+    // let c="10";
+
+    // log(a>b);
+    // log(b>c);
+    // log(b>=c);
+    // log(b==c);
+    // log(b===c);
+    // log(b!=c);
+    // log(b!==c);
+
+    // 논리 연산자 
+
+    // let id ='main';
+    // let pwd ='1234';
+    // let userId ='main';
+    // let userPwd='1234';
+
+    // let result = (id === userId) && (pwd === userPwd);
+
+    // let ID = 'main';
+    // let PW = 'A0123';
+    
+    // userId = prompt('userId');
+    // console.log(userId);
+    // userPwd = prompt('A0123');
+    // console.log(userPwd);
+
+    // result = (ID === userId) && (PW === userPwd);    
+
+    // log(result);
+
+    // log(id ==='main' && pwd==='567');
+    // log(id==='main'|| pwd==='5678');
+    // log(!(id==='main'|| pwd==='5678'));
+    
+    // let classA = prompt('소프트 웨어 설게?');
+    // let classB = prompt('영소프트 웨어 개발');
+    // let classC = prompt('프로그갬 언어 점수?');
+    // let classD = prompt('정보 시스템 구축관리 점수');
+   
+
+    // let resultA = (Number(classA)>=40);
+    // let resultB = (Number(classB)>=40);
+    // let resultC = (Number(classC)>=40);
+    // let resultD = (Number(classD)>=40);
+
+    // let total = Number(classA) + Number(classB) + Number(classC) + Number(classD);
+    // let avg = (total/4) >= 60;
+    
+    // log("합격:", resultA && resultB && resultC && resultD && avg);
+    
+
+    // 문제 대출 받는데
+    // 조건
+    // 나이가 20세 이상 대출 가능
+    //    자산이 100원 미만은 대출불가
+    // 자산이 100원 이상은 50원 까지 대출 가능(Number>=100,Number<=50)
+    //        200원 이상은 100원가지 대출 가능(Number>=200,Number<=100)
+    
+
+    // prompt으로 나이 , 자산 , 희망 대출 금액 입력 받아서  대출 승인 여부 판단 코드
+
+    // let classA = prompt('나이');
+    // let classB = prompt('자산');
+    // let classC = prompt('희망 대출금액');
+
+    // let resultA = (Number(classA)>=20);
+    // let resultB = (Number(classB)>100); //FALSE
+    // let resultC = (Number(classB)>=100 && Number(classC)<=50); //TRUE 50
+    // let resultD = (Number(classB)>=200 && Number(classC)<=100); //TRUE 100
+
+    // log("승인여부 : ", (resultC || resultD) && resultA && resultB);
+
+
+        // 삼항 연산자
+        // let result =(loan)? "가능":"블가능";
+        // log('대출',result)
+        // (loan)?log('대출가능'):log('대출불가능');
+
+        // let age = 20;
+        // let conVote = age >= 18 ?'yes':'no';
+        // console.log(conVote);//'yes'
+
+       
+
+
+   
+   </script>
+   
+</body>
+</html>

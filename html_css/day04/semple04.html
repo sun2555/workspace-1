@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="form1"id="form1"method="post" action="abc1.php">
+        <fieldset id="input1">
+            <legend>[예제1]DEFAULT</legend>
+            <input type="checkbox"name="idSave"id="idSaveChk1"value="아이디저장">
+            <label for="idSaveChk1">아이디 저장</label>
+            
+            <input type="checkbox"name="autoSave" id="secConectChk1"value='자동로그인'>
+            <label for="secConectChk1">자동로그인</label>
+          
+            <input type="checkbox"name="secConnect" id="secConectChk1"value="보안접속">
+            <label for="secConectChk1">보안접속</label>
+            
+            <input type="radio"name="chek" id="travelChk1" value='여행'>
+            <label for="travelChk1">여행</label>
+            <input type="radio"name="chek" id="travelChk1"value='운동'>
+            <label for="travelChk1">운동</label>
+    </fieldset>
+    <br>
+    <fieldset id="input2">
+        <legend>[예제2]DEFAULT & CHECKED</legend>
+        <input type="checkbox"name="idSave"id="idSaveChk2"checked value="아이디저장">
+        <label for="idSaveChk2">아이디 저장</label>
+        
+        <input type="checkbox"name="autoSave" id="secConectChk2"value='자동로그인'>
+        <label for="secConectChk2">자동로그인</label>
+      
+        <input type="checkbox"name="secConnect"id="idSaveChk2"value="보안접속">
+        <label for="secConectChk2">보안접속</label>
+        
+        <input type="radio"name="chek" id="travelChk2"checked value='여행'>
+        <label for="travelChk2">여행</label>
+        <input type="radio"name="chek" id="exersiseChk2"checked value='운동'>
+        <label for="exersiseChk2">운동</label>
+
+    </fieldset>
+    <br>
+    <fieldset id="input3">
+        <legend>[예제3]ENABLED DISABLED</legend>
+        
+        <input type="checkbox"name="idSave"id="idSaveChk3"enabled value="아이디저장">
+        <label for="idSaveChk3">아이디 저장</label>
+        
+        <input type="checkbox"name="autoSave" id="secConectChk3"disabled value='자동로그인'>
+        <label for="secConectChk3">자동로그인</label>
+      
+        <input type="checkbox"name="secConnect"id="secConectChk3" disabled value="보안접속">
+        <label for="secConectChk3">보안접속</label>
+        
+        <input type="radio"name="chek" id="secConectChk3"enabled value='여행'>
+        <label for="secConectChk3">여행</label>
+        <input type="radio"name="chek" id="secConectChk3"enabled value='운동'>
+        <label for="secConectChk3">운동</label>
+
+
+
+    </fieldset>
+    </form>
+</body>
+</html>

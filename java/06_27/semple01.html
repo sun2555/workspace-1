@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function log(...texts){
+            const logDiv = document.getElementById('log');
+            const newLogEntry = document.createElement('div');
+            // 여러 텍스트 인자를 하나의 문자열로 합칩니다.
+            newLogEntry.textContent = texts.join(' ');
+            logDiv.appendChild(newLogEntry);
+        }
+    </script>
+    <style>
+        div{
+            font-family: 'd2coding';
+            white-space: pre; /* 연속된 공백과 줄바꿈을 그대로 표시 */
+        }
+    </style>
+<body>
+    <script>
+        // function addNum(num1,num2){
+        //     let sum = num1 + num2;
+        //     return sum;
+
+        // }
+        // let sum1= addNum(1,2);
+        // document.write(sum1,"<br>");
+        // document.write(addNum(3,4));
+
+        //   for(let dan = 2; dan < 10; dan++){
+        //     for(let n=2; n<10;n++){
+        //         document.write(dan,"*",n,"=", dan*n,"<br>");
+        //     }
+        // }
+        // function displayDan( dan ){
+        //     for(let n=2; n<10;n++){
+        //         document.write(dan,"*",n,"=", dan*n,"<br>");
+        //     }
+        // }
+        // let num01 = 5;
+        // let num02 = 1;
+        // let num03 = 10;
+        // let min;
+        // if(num01< num02){
+        //     min = num01;
+        // }
+        //  else{min = num02;}
+        //  console.log(min)
+        //  if(min > num03){
+        //     min = num03;
+        //  }
+        //  console.log(min)
+        
+        // for(let dan=2; dan<10;dan++){
+        //     displayDan(dan);
+        // }
+        // function writeBlank(count){
+        //     for(let i = 0; i<count; i++){
+        //         document.write("&nbsp;");
+        //     }
+        // }
+        // function writeStar(count){
+        //     for(let i = 0; i<count; i++){
+        //         document.write("*");
+        //     }
+        // }
+        // for(let n=4, s=1; n>=0 && s<6; n--, s++){
+        //     writeBlank(n); writeStar(s); document.write("<br>");
+        // }
+        // writeBlank(4); writeStar(1); document.write("<br>");
+        // writeBlank(3); writeStar(2); document.write("<br>");
+        // writeBlank(2); writeStar(3); document.write("<br>");
+        // writeBlank(1); writeStar(4); document.write("<br>");
+        // writeBlank(0); writeStar(5); document.write("<br>");
+
+        // function line(srt,n){
+        //     for(i=1; i<=20;i++){
+                // document.write(str);
+        //     }
+        //       document.write("<br>");
+        // }
+        // line("*",5);
+        // line("@",1);
+        // line("#",10);
+
+        // function add(num1,num2){
+        //     let sum = num1+num2;
+        //     document.write(sum+'<br>');
+        // }
+        // add(2,3);
+        // add(45,3456);
+        // add(12345,874562);
+    //  function gift(s){
+    //     switch(sport){
+    //         case"축구":  
+    //             alert("박지성 사인볼 당첨");break;
+    //         case"야구":
+    //             alert("류현진 사인볼 당처ㅁ");break;
+    //         case"농구":
+    //             alert("마이클 조던  볼 당첨 ");break;
+    //         default:    
+    //              alert("꽝");
+    //     }
+    //  }
+
+
+
+    // function flower(flowerName){
+    //          switch(flowerName){
+    //             case "무궁화":
+    //                 alert('무궁화 동호회 추천');break;
+    //             case "장미":
+    //                 alert('장미 동호회 추천');break;
+    //             case "국화":
+    //                 alert('국화 동호회 추천');break;
+
+    //         }
+    //     }
+
+    // let first=13;
+    // let last= 7;
+    // let result = all(first,last);
+    //     document.write(result);
+
+    //     function all(a,b){
+    //     let sam = a+b;
+    //     return sam;
+    // }
+
+
+    // var num=1;
+    // function love(){
+        
+    //     a = '산';
+    //     var b = '강';
+    //     document.write("함수내에서 출력",a,"<br>");
+    //     document.write("함수내에서 출력",b,"<br>");
+    //     return a;
+    // }
+    //     love();
+    //     document.write(b,'<br>');
+    
+
+
+    // 기명함수
+    // function all(a,b){
+    //     let result;
+    //     result = a>b? console.log('a>b'): console.log('a<b');
+    //     return result;
+
+    // }
+    // var all = function(a,b){
+    //     let result;
+    //     result = a>b? console.log('a>b'): console.log('a<b');
+    //     return result;
+    // }
+    
+    
+    // let first = 13;
+    // let last =7;
+    // all(first, last);
+    // all(23, 45);
+    // all(1/2, 3/4);
+    
+    // let first = 13;
+    // let last =7;
+    // var all = function(a,b){
+    //     let result;
+    //     a>b? document.write('a>b'): document.write('a<b');
+    //     return ;
+    //     return result;
+    //  }(first, last);
+    
+    // console.log(all);
+
+    // // function maxFunc(a,b){
+    // //     let result = a>b? a:b;
+    // //     return;
+
+    // }
+
+    // maxFunc(5,6);
+    // const max = (a,b)=> a>b? a: b;
+    // document.write(max(15,6));
+
+    
+    
+
+
+    // </script>
+
+    <!--  <button type="button"onclick="gift('축구')">축구</button>
+     <button type="button"onclick="gift('야구')">야구</button>
+     <button type="button"onclick="gift('농구')">농구</button> -->
+
+
+     <!-- <button type="button" onclick="flower('무궁화')">무궁화</button>
+     <button type="button" onclick="flower('장미')">장미</button>
+     <button type="button" onclick="flower('국화')">국화</button>
+
+        -->
+
+
+</body>
+</html>
