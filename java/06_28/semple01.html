@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function log(...texts){
+            const logDiv = document.getElementById('log');
+            const newLogEntry = document.createElement('div');
+            // 여러 텍스트 인자를 하나의 문자열로 합칩니다.
+            newLogEntry.textContent = texts.join(' ');
+            logDiv.appendChild(newLogEntry);
+        }
+        function writeln(...texts){
+            document.write(texts,"<br>");
+        }
+    </script>
+    <style>
+        div{
+            font-family: 'd2coding';
+            white-space: pre; /* 연속된 공백과 줄바꿈을 그대로 표시 */
+        }
+    </style>
+</head>
+<body>
+    <!-- <script>
+    let today = new Date();
+    let formattedDate = format(today,'yyy-mm-dd');
+    document.write(formattedDate);
+    </script> -->
+
+    <script>
+        // let picture = new Array();
+
+        // function picture(aTitle, aImgAddr, author){
+        //     this.title = aTitle;
+        //     this.imgAddr = aImgAddr;
+        //     this.author = author;
+        //     this.show = function(){
+        //         document.write(`<dl><dt>"${this.title}"<img src=${this.imgAddr}</dt></dl>`)
+        //     }
+        // }
+
+        // pictures.push(new picture('꿈','./images/pic02.jpg','사갈'))
+        // pictures.push(new picture('에펠','./images/pic01.jpg','사갈'))
+        // pictures.push(new picture('무용수','./images/pic03.jpg','사갈'))
+        
+        //    picture.forEach((picture,inx)=>{
+        //     picture.show();
+        //     document.write(inx);
+
+        // });
+        
+    </script>
+    
+</body>
+</html>

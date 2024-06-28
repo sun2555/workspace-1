@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/box.css">
+    
+</head>
+<body>
+    <script>
+        // class Book{
+        //     constructor(title,author,year){
+        //         this.title = title;
+        //         this.author = author;
+        //         this.year = year;
+
+        //     }
+        //     show(){
+        //         document.write(`${this.title}:${this.author},${this.year}<br>`)
+        //     }
+        //     show2(){
+        //         document.write(`${this.title}:${this.author},${this.year}<br>`)
+            
+        //     }
+        //     book1 = new Book('노인과 바다 ', '허밍웨이',1950);
+        //     book1.show();
+        //     book2 = new Book('삼국지','나관중',900);
+        //     book2.show();
+        //     book2.show2();
+
+    
+        // }
+   //01. 클래스 객체 만들기 
+        // class picture{
+        //     constructor(aTitle,aImgAddr,aAuthor,aYear){
+        //         this.title = aTitle;
+        //         this.imgAddr = aImgAddr;
+        //         this.author = aAuthor;
+        //         this.year = aYear;
+        //     }
+
+        // class picture{
+        //     constructor(aTitle,aImgAddr,aAuthor,aYear){
+        //         this.title = aTitle;
+        //         this.imgAddr = aImgAddr;
+        //         this.author = aAuthor;
+        //         this.year = aYear;
+        //     }
+        
+        //     show(){
+        //         document.write(
+        //             `<dl><dt>${this.title}</dt>
+        //             <dd><img src="${this.imgAddr}"></dd>
+        //             <dd>${this.author}${this.year}</dd>
+        //             </dl>`
+        //         );
+        //     }
+        // }
+        // new picture('에펠탑의 신랑신부','./images/pic01.jpg','사갈',1864).show();
+        // // new picture('에펠','./images/pic01.jpg','사갈').show();
+        // new picture('꿈','./images/pic02.jpg','사갈').show();
+        // new picture('무용수','./images/pic03.jpg','사갈').show();
+        // new picture('피아노 치는 소녀들','./images/pic04.jpg','사갈').show();
+        
+        
+//.객체 표현식
+        const num = {
+            'brand name': 'MyBrand',
+            level:2,
+            'born-year':2022,
+            isVeryNice:true,
+            '1stName':'javascript',
+            bestCourse:{
+                title:'프론트엔드',
+                laguage:'javascript',
+                'level num':1
+            },
+            name:[1,2,3,4,5]
+        }
+
+        document.write(num.level,"<br>");
+        document.write(num['bran name'],"<br>");
+            for(i=l; i<=4, i++){
+            document.write(num.name[4])
+        }
+            
+
+
+    </script>
+
+    
+</body>
+</html>
